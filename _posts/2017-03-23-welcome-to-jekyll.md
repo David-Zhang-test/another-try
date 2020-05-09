@@ -25,7 +25,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 
-`
+
 {% if site.valine.enable %}
   {% include valine.html %}
 
@@ -36,4 +36,3 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
     <div id="comments"></div>
 
 {% endif %}
-`
