@@ -28,9 +28,11 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 {% if site.valine.enable %}
   {% include valine.html %}
-{% endif %}
 
 
-{% include valine.html %}
+
+<!--{% include valine.html %}-->
 {% elsif site.valine_comment.enable %}
-  <div id="vcomments"></div>
+    <div id="vcomments"></div>
+
+{% endif %}
