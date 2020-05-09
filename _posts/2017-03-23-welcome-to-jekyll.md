@@ -33,6 +33,6 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 <!--{% include valine.html %}-->
 {% elsif site.valine_comment.enable %}
-    <div id="vcomments"></div>
+    <div id="comments"></div>
 
 {% endif %}
