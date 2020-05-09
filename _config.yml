@@ -58,3 +58,12 @@ valine:
   # path: window.location.pathname #  v1.4.0+不要使用参数“app_key: 'LHvLGcwcauE5B2JpMxJ3lbtF',”
   recordIP: true # 是否记录评论者IP
   enableQQ: true # 是否启用昵称框自动获取QQ昵称和QQ头像, 默认关闭
+
+valine_comment:
+  enable: true
+# app_id
+  leancloud_appid: AnlQLDmNdVeGBc104glGHnty-gzGzoHsz
+# app_key
+  leancloud_appkey: 0xWfmArRQhGCa6CpoTp6aMU3
+# placeholde
+  placeholder: “Just go go"
